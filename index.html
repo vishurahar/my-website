@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    
+    <title>Menu responsive</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="header__logo">Vishesh</a>
+        <ion-icon name="menu-outline" class="header__toggle" id="nav-toggle"></ion-icon>
+        
+        <nav class="nav" id="nav-menu">
+            <div class="nav__content bd-grid">
+                <ion-icon name="close-outline" class="nav__close" id="nav-close"></ion-icon>
+                
+                <div class="nav__perfil">
+                    <div class="nav__img">
+                        <img src="assets/img/perfil.png" alt="">
+                    </div>
+                    
+                    <div>
+                        <a href="#" class="nav__name">Vishesh</a>
+                        <span class="nav__profesion">Researcher</span>
+                    </div>
+                </div>
+                
+                <div class="nav__menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#about" class="nav__link active">About Me</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                        <li class="nav__item"><a href="#publications" class="nav__link">Publications</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="nav__social">
+                    <a href="#" class="nav__social-icon"><ion-icon name="logo-linkedin"></ion-icon></a>
+                    <a href="#" class="nav__social-icon"><ion-icon name="logo-github"></ion-icon></a>
+                    <a href="#" class="nav__social-icon"><ion-icon name="logo-behance"></ion-icon></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="your_image.jpg" alt="Your Name - Portrait" style="width: 200px; float: left; margin-right: 20px;">
+        <p>Hello, I am Vishesh, a curious and inquisitive individual with interests as diverse as a rainbow. My childlike curiosity allows me to find fascination in almost anything, but to name a few, I am particularly drawn to Quantum Computing and Quantum Information, Neuroscience, Evolutionary Biology, Behavioral Biology, Philosophy, Astrophysics, Psychology, Artificial Intelligence, Machine Learning, and Literature.</p>
+        <p>"Curiosity is the wick in the candle of learning." This quote by William Arthur Ward resonates with me, as I believe that curiosity is the driving force behind knowledge and understanding.</p>
+        <p>Currently, I am a BSMS student at the Indian Institute of Science Education and Research (IISER) in Mohali, which has proven to be the perfect environment to explore and develop these interests. Among these fields, I have delved deepest into Quantum Computing, sparked by a course at IISER that led me to undertake projects under the guidance of Dr. Kavita Dorai.</p>
+    </section>
+    
+    <section id="skills">
+        <h2>Skills</h2>
+        <p>Throughout my academic journey and internships, I've honed a diverse skill set primed to tackle the challenges of the modern world. These skills include:</p>
+        <ul>
+            <li>C++</li>
+            <li>Python</li>
+            <li>Research Methodologies</li>
+            <li>Medical Imaging MRI, fMRI</li>
+            <li>NMR Quantum Computing</li>
+            <li>Quantum Gates Optimization</li>
+            <li>Convolution Neural Networks</li>
+        </ul>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>May 2024 - Optimization of Quantum Gates using Genetic Algorithm</h3>
+            <p>In this project, I reproduced the work of previous NMR Lab members at IISER Mohali, exploring the optimization of quantum gates using genetic algorithms. By applying genetic algorithms to three-qubit unitary matrices, they designed time-optimal and robust pulse sequences, achieving high theoretical fidelity. Experimental implementation on a three-coupled NMR qubit system validated the approach's effectiveness. As a testament to my understanding, I independently reproduced all results, and the code is available on GitHub for interested readers (see resources section).</p>
+            <p>Key Features:</p>
+            <ul>
+                <li>Feature 1</li>
+                <li>Feature 2</li>
+                <li>Feature 3</li>
+            </ul>
+            <p>Links/Resources:</p>
+            <ul>
+                <li><a href="https://arxiv.org/abs/1707.00289" target="_blank">Original Work</a></li>
+                <li><a href="#" target="_blank">GitHub Repository</a></li>
+            </ul>
+        </div>
+        <div class="project">
+            <h3>March 2024 - Phase Transitions in the Hubbard Model on a 2D Square Lattice</h3>
+            <p>In this project, as part of my Condensed Matter Physics course, I explored the Hubbard model on a 2D square lattice using Python. The objective was to develop a phase transition diagram depicting the transitions between ferromagnetic, antiferromagnetic, and non-magnetic phases. This was achieved by varying the Hubbard Hamiltonian parameters, including hopping t, onsite Coulombic repulsion U, and electron filling. This project was a rework of the original study conducted by Y. Claveau, B. Arnaud, and S. Di Matteo.</p>
+            <p>Key Features:</p>
+            <ul>
+                <li>Phase Transition Diagram: Developed a phase transition diagram illustrating the transitions between ferromagnetic, antiferromagnetic, and non-magnetic phases.</li>
+                <li>Feature 2</li>
+                <li>Feature 3</li>
+            </ul>
+            <p>Links/Resources:</p>
+            <ul>
+                <li><a href="http://arxiv.org/abs/1403.2259v1" target="_blank">Original Work</a></li>
+                <li><a href="#" target="_blank">GitHub Repository</a></li>
+            </ul>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Vishesh. All rights reserved.</p>
+    </footer>
+    
+    <!-- ===== IONICONS ===== -->
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/smoothscroll.js"></script>
+</body>
+</html>
+
